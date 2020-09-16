@@ -1,0 +1,212 @@
+/* Etiquetas normales */
+body{
+    background-color: #f2f7f7;
+}
+footer{
+    background-color: #A4A4A4;
+}
+
+.icon1{
+    width: 71;
+    height: 65;
+}
+
+.panel1{
+    background-color: #f2f7f7;
+}
+
+.icon1{
+    margin-left: -5%;
+    margin-top: 3%;
+}
+
+.mainImage{
+    margin-left: 23%;
+}
+
+.cardFonts{
+    color: #fff;
+    margin-left: 18%;
+    font-size: 24px;
+}
+
+.cardHeader{
+    color:#fff;
+}
+
+.cards{
+    height: 100%;
+    width: 100%;
+}
+
+.cardImage1{
+    margin-left: 15%;
+}
+
+.card1Assets{
+    background-color: #c09769;
+    height: 100%;
+    width: 100%;
+}
+
+.cardImage2{
+    margin-left: 15%;
+}
+
+.card2Assets{
+    background-color: #a7ceef;
+    height: 100%;
+    width: 100%;
+}
+
+.cardImage3{
+    margin-left: 15%;
+}
+
+.card3Assets{
+    background-color:  #acb5ac;
+    height: 100%;
+    width: 100%;
+}
+
+.mainCard{
+    width: 100%;
+    height: 100%;
+}
+
+.lineStyle{
+    border-color: #fff;
+}
+
+.headerAsset{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.headerText{
+    margin-top: 5%;
+}
+
+.fowardArrow{
+    margin-top: 2%;
+    margin-left: 5%;
+    height: 5%;
+    width: 5%;
+}
+
+.bigCard{
+    height: 100%;
+    width: 100%;
+}
+
+.cardMembers{
+    height: 100%;
+    width: 100%;
+    background-color: #c9a3a4;
+}
+
+.text{
+    height: 100%;
+    width: 50%;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.image{
+    height: 100%;
+    width: 50%;
+    margin-left: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.lineStyle2{
+    border-color: #fff;
+    margin-right: 50%;
+}
+
+.BigCardfont{
+    font-size: 20px;
+}
+
+.cardFonts2{
+    color: #fff;
+    margin-top: 40%;
+    font-size: 24px;
+}
+
+.fowardArrow2{
+    margin-top: -13%;
+    margin-left: 20%;
+    height: 5%;
+    width: 5%;
+}
+
+.footerStyle{
+    background-color: #f2f7f7;
+}
+
+.icon2{
+    width: 71;
+    height: 65;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.footerFont{
+    color: #858585;
+    margin-left: -6%;
+    position: absolute;
+}
+
+.headerText{
+    position: absolute;
+    margin-top: 20%;
+    color: #0b2436;
+}
+
+.headerTextCustomization{
+    margin-top: 15%;
+    font-size: 26px;
+}
+
+.fowardArrow3{
+    margin-top: -8%;
+    margin-left: 22%;
+    height: 2%;
+    width: 2%;
+}
+
+.smallLink1{
+    position: absolute;
+    text-decoration: none;
+    color: #858585;
+    margin-left: 82%;
+    margin-top: -4%;
+}
+
+.smallLink2{
+    position: absolute;
+    text-decoration: none;
+    color: #858585;
+    margin-left: 82%;
+    margin-top: -2%;
+}
+
+.smallLink3{
+    position: absolute;
+    text-decoration: none;
+    color: #858585;
+    margin-left: 82%;
+    margin-top: 0%;
+}
+
+.smallLink4{
+    position: absolute;
+    text-decoration: none;
+    color: #858585;
+    margin-left: 82%;
+    margin-top: 2%;
+}
