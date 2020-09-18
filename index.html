@@ -6,26 +6,26 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/Normalize.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
     <title>Hogar</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="background py-2">
-                <div class="col">
+            <div class="background py-2 container-fluid">
+                <div class="col-12">
                     <div class="col-2 align-self-center">
-                        <img src="./img/totallynotneuralink.PNG" alt="Responsive image" class="icon1">
+                        <img src="./img/totallynotneuralink.PNG" alt="Responsive image" class="icon1 img-fluid">
                     </div>
                 </div>
-                <div class="text-right">
+                <div class="col-lg-12 text-right" role="navigation">
                     <a class="smallLink" href="/app.html">Aplicación</a>
                     <a class="smallLink" href="/drone.html">Drones</a>
                     <a class="smallLink" href="/project.html">El proyecto</a>
                     <a class="smallLink" href="/members.html">Miembros</a>
                 </div>
-                <div class="headerText">
+                <div class="col-lg-6 headerText">
                     <h1>
                         Bienvenidos a Ignito
                     </h1>
@@ -36,34 +36,40 @@
     </header>
 
     <section>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col card1Assets">
-                    <div class="container">
-                        <br>
-                        <h3 class="cardHeader">Nuestra aplicación</h3>
-                        <hr class="lineStyle">
-                        <img class="rounded mx-auto d-block" src="img/test.PNG" alt="Responsive image">
-                        <p class="cardFonts">Aplicación 🡒</p>
-                    </div>
+                <div class="col-lg-4 card" style="background-color: #c09769;">
+                    <a href="/app.html" style="text-decoration: none;">
+                        <div class="container">
+                            <br>
+                            <h3 class="cardHeader">Nuestra aplicación</h3>
+                            <hr class="lineStyle">
+                            <img class="rounded mx-auto d-block img-fluid" src="img/test.PNG" alt="Responsive image">
+                            <p class="cardFonts">Aplicación 🡒</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="col card2Assets">
-                    <div class="container">
-                        <br>
-                        <h3 class="cardHeader">Nuestros Drones</h3>
-                        <hr class="lineStyle">
-                        <img class="rounded mx-auto d-block" src="img/test.PNG" alt="Responsive image">
-                        <p class="cardFonts">Drones 🡒</p>
-                    </div>
+                <div class="col-lg-4 card" style="background-color: #a7ceef;">
+                    <a href="/drone.html" style="text-decoration: none;">
+                        <div class="container">
+                            <br>
+                            <h3 class="cardHeader">Nuestros Drones</h3>
+                            <hr class="lineStyle">
+                            <img class="rounded mx-auto d-block img-fluid" src="img/test.PNG" alt="Responsive image">
+                            <p class="cardFonts">Drones 🡒</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="col card3Assets">
-                    <div class="container">
-                        <br>
-                        <h3 class="cardHeader">Nuestro Proyecto</h3>
-                        <hr class="lineStyle">
-                        <img class="rounded mx-auto d-block" src="img/test.PNG" alt="Responsive image">
-                        <p class="cardFonts">¿Por qué? 🡒</p>
-                    </div>
+                <div class="col-lg-4 card" style="background-color: #acb5ac;">
+                    <a href="/project.html" style="text-decoration: none;">
+                        <div class="container">
+                            <br>
+                            <h3 class="cardHeader">Nuestro Proyecto</h3>
+                            <hr class="lineStyle">
+                            <img class="rounded mx-auto d-block img-fluid" src="img/test.PNG" alt="Responsive image">
+                            <p class="cardFonts">¿Por qué? 🡒</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -79,13 +85,13 @@
                             <p class="BigCardfont">
                                 Conoce a nuestro equipo y sus experiencias creando este producto, ¡siguenos!
                             </p>
-                            <p class="cardFonts2">
+                            <a href="/members.html" class="cardFonts2">
                                 El equipo 🡒
-                            </p>
+                            </a>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="img/test2.png" alt="Responsive image" class="rounded mx-auto d-block">
+                    <img src="img/test2.png" alt="Responsive image" class="rounded mx-auto d-block img-fluid">
                 </div>
             </div>
         </div>
@@ -95,7 +101,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="./img/totallynotneuralink.PNG" alt="" class="rounded mx-auto d-block">
+                    <img src="./img/totallynotneuralink.PNG" alt="" class="rounded mx-auto d-block img-fluid">
                 </div>
                 <div lass="col-md-6 center">
                     <br>

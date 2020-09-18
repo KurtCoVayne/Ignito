@@ -46,18 +46,6 @@ footer {
     height: auto;
 } */
 
-.card1Assets {
-    background-color: #c09769;
-}
-
-.card2Assets {
-    background-color: #a7ceef;
-}
-
-.card3Assets {
-    background-color: #acb5ac;
-}
-
 .lineStyle {
     border-color: #fff;
     width: 50%;
@@ -85,6 +73,7 @@ footer {
 .lineStyle2 {
     border-color: #fff;
     margin-right: 50%;
+    border-width: auto;
 }
 
 .BigCardfont {
@@ -93,8 +82,17 @@ footer {
 
 .cardFonts2 {
     color: #fff;
-    margin-top: 10%;
+    margin-top: 20%;
     font-size: 24px;
+    text-decoration: none;
+}
+
+.cardFonts2:hover {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20%;
+    font-size: 24px;
+    text-decoration: underline;
 }
 
 .fowardArrow2 {
@@ -124,17 +122,48 @@ footer {
     margin-top: 10%;
     color: #0b2436;
     margin-left: 5%;
+    font-family: var(--font-primary);
+    font-weight: var(--font-tertiary-weight-medium);
+}
+
+@media (max-width: 992px) {
+    .headerText {
+        color: #0b2436;
+        margin-bottom: 140%;
+        font-size: 30px;
+        font-family: var(--font-primary);
+        font-weight: var(--font-tertiary-weight-medium);
+    }
 }
 
 .headerText2 {
     margin-top: 10%;
     color: #fff;
     margin-left: 5%;
+    font-family: var(--font-primary);
+    font-weight: var(--font-tertiary-weight-medium);
+}
+
+@media (max-width: 992px) {
+    .headerText2 {
+        color: #fff;
+        margin-bottom: 140%;
+        font-size: 30px;
+        font-family: var(--font-primary);
+        font-weight: var(--font-tertiary-weight-medium);
+    }
 }
 
 .headerTextCustomization {
     margin-top: 10%;
     font-size: 26px;
+    color: #fff;
+}
+
+.headerTextCustomization:hover {
+    text-decoration: none;
+    text-decoration: none;
+    color: currentColor;
 }
 
 .fowardArrow3 {
@@ -148,6 +177,7 @@ footer {
     color: #858585;
     margin-left: 50%;
     margin-right: 4%;
+    text-transform: uppercase;
 }
 
 .smallLink2 {
@@ -155,6 +185,7 @@ footer {
     color: #fff;
     margin-left: 50%;
     margin-right: 4%;
+    text-transform: uppercase;
 }
 
 .background {
@@ -163,45 +194,109 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .background {
+        background-image: url("/img/faker-lg.png");
+        background-color: #f2f7f7;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 .background2 {
-    background-image: url("/img/test.PNG");
+    background-image: url("/img/faker.png");
     background-color: #c09769;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
+@media (max-width: 992px) {
+    .background2 {
+        background-image: url("/img/faker-lg.png");
+        background-color: #c09769;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .background3 {
-    background-image: url("/img/test.PNG");
+    background-image: url("/img/faker.png");
     background-color: #a7ceef;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
+@media (max-width: 992px) {
+    .background3 {
+        background-image: url("/img/faker-lg.png");
+        background-color: #a7ceef;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .background4 {
-    background-image: url("/img/test.PNG");
+    background-image: url("/img/faker.png");
     background-color: #acb5ac;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
+@media (max-width: 992px) {
+    .background4 {
+        background-image: url("/img/faker-lg.png");
+        background-color: #acb5ac;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .background5 {
-    background-image: url("/img/test.PNG");
+    background-image: url("/img/faker.png");
     background-color: #c9a3a4;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
+@media (max-width: 992px) {
+    .background5 {
+        background-image: url("/img/faker-lg.png");
+        background-color: #c9a3a4;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .hugeCard {
+    background-image: url("/img/test3.jpg");
     background-color: #f2f7f7;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 8%;
 }
 
 .paragraph {
@@ -209,13 +304,49 @@ footer {
     width: auto;
 }
 
-.lineStyle2 {
-    border-width: auto;
-}
-
 .membersImage {
     height: 40%;
     width: auto;
     margin-right: 50%;
     margin-top: 30%;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.smallLink:hover {
+    color: #0b2436;
+    text-decoration: none;
+}
+
+.smallLink2:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+:root {
+    --font-primary: 'Untitled Sans', Helvetica, Arial, sans-serif;
+    --font-secondary: 'Tiempos Headline', 'Times', 'Georgia', serif;
+    --font-tertiary: 'DIN', Helvetica, Arial, sans-serif;
+    --font-quaternary: 'Sohne Mono Buch', Helvetica, Arial, sans-serif;
+    --font-primary-weight-regular: 400;
+    --font-secondary-weight-light: 300;
+    --font-secondary-weight-regular: 400;
+    --font-tertiary-weight-medium: 500;
+    --font-quaternary-weight-medium: 500;
+}
+
+.parHeader {
+    font-family: var(--font-secondary);
+    font-weight: var(--font-secondary-weight-light);
+}
+
+.parText {
+    font-family: var(--font-primary);
+    font-weight: var(--font-primary-weight-regular);
 }
