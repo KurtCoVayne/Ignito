@@ -1,5 +1,32 @@
 /* Etiquetas normales */
 
+:root {
+    --font-primary: 'Untitled Sans', Helvetica, Arial, sans-serif;
+    --font-secondary: 'Tiempos Headline', 'Times', 'Georgia', serif;
+    --font-tertiary: 'DIN', Helvetica, Arial, sans-serif;
+    --font-quaternary: 'Sohne Mono Buch', Helvetica, Arial, sans-serif;
+    --font-primary-weight-regular: 400;
+    --font-secondary-weight-light: 300;
+    --font-secondary-weight-regular: 400;
+    --font-tertiary-weight-medium: 500;
+    --font-quaternary-weight-medium: 500;
+}
+
+@font-face {
+    font-family: "Untitled Sans";
+    src: url("/fonts/untitled-sans-web-regular.woff2");
+}
+
+@font-face {
+    font-family: "Tiempos Headline";
+    src: url("/fonts//tiempos-headline-web-light.woff2");
+}
+
+@font-face {
+    font-family: "DIN";
+    src: url("/fonts/ff-din.woff2");
+}
+
 body {
     background-color: #f2f7f7;
 }
@@ -126,11 +153,11 @@ footer {
     font-weight: var(--font-tertiary-weight-medium);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .headerText {
         color: #0b2436;
-        margin-bottom: 140%;
-        font-size: 30px;
+        margin-bottom: 100%;
+        font-size: 16px;
         font-family: var(--font-primary);
         font-weight: var(--font-tertiary-weight-medium);
     }
@@ -162,6 +189,16 @@ footer {
 
 .headerTextCustomization:hover {
     text-decoration: none;
+    color: currentColor;
+}
+
+.indexHeaderText {
+    margin-top: 10%;
+    font-size: 16px;
+    color: #0b2436;
+}
+
+.indexHeaderText:hover {
     text-decoration: none;
     color: currentColor;
 }
@@ -175,9 +212,18 @@ footer {
 .smallLink {
     text-decoration: none;
     color: #858585;
-    margin-left: 50%;
-    margin-right: 4%;
     text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .smallLink {
+        text-decoration: none;
+        color: #858585;
+        margin-left: 50%;
+        margin-right: 4%;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
 }
 
 .smallLink2 {
@@ -192,19 +238,19 @@ footer {
     background-image: url("/img/faker.png");
     background-color: #f2f7f7;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: contain;
     max-width: 100%;
     height: auto;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .background {
         background-image: url("/img/faker-lg.png");
         background-color: #f2f7f7;
         background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        background-position: bottom;
+        background-size: contain;
         max-width: 100%;
         height: auto;
     }
@@ -214,17 +260,17 @@ footer {
     background-image: url("/img/faker.png");
     background-color: #c09769;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: contain;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .background2 {
         background-image: url("/img/faker-lg.png");
         background-color: #c09769;
         background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        background-position: bottom;
+        background-size: contain;
         max-width: 100%;
         height: auto;
     }
@@ -234,16 +280,16 @@ footer {
     background-image: url("/img/faker.png");
     background-color: #a7ceef;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: contain;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .background3 {
         background-image: url("/img/faker-lg.png");
         background-color: #a7ceef;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
         background-size: cover;
         max-width: 100%;
         height: auto;
@@ -254,17 +300,17 @@ footer {
     background-image: url("/img/faker.png");
     background-color: #acb5ac;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: contain;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .background4 {
         background-image: url("/img/faker-lg.png");
         background-color: #acb5ac;
         background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        background-position: bottom;
+        background-size: contain;
         max-width: 100%;
         height: auto;
     }
@@ -278,7 +324,7 @@ footer {
     background-size: contain;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .background5 {
         background-image: url("/img/faker-lg.png");
         background-color: #c9a3a4;
@@ -325,20 +371,15 @@ footer {
     text-decoration: none;
 }
 
-.card:hover {
-    opacity: 0.8;
+.card {
+    border-radius: 0;
+    border-width: 0;
 }
 
-:root {
-    --font-primary: 'Untitled Sans', Helvetica, Arial, sans-serif;
-    --font-secondary: 'Tiempos Headline', 'Times', 'Georgia', serif;
-    --font-tertiary: 'DIN', Helvetica, Arial, sans-serif;
-    --font-quaternary: 'Sohne Mono Buch', Helvetica, Arial, sans-serif;
-    --font-primary-weight-regular: 400;
-    --font-secondary-weight-light: 300;
-    --font-secondary-weight-regular: 400;
-    --font-tertiary-weight-medium: 500;
-    --font-quaternary-weight-medium: 500;
+.card:hover {
+    opacity: 0.8;
+    border-radius: 0;
+    border-width: 0;
 }
 
 .parHeader {
@@ -349,4 +390,16 @@ footer {
 .parText {
     font-family: var(--font-primary);
     font-weight: var(--font-primary-weight-regular);
+}
+
+.cardImages {
+    max-height: 50%;
+    width: auto;
+}
+
+@media (max-width: 767px) {
+    .cardImages {
+        max-height: 25%;
+        width: auto;
+    }
 }
