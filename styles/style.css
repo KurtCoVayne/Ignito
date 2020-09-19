@@ -403,3 +403,31 @@ footer {
         width: auto;
     }
 }
+
+.button {
+    position: relative;
+}
+
+.link {
+    position: relative;
+}
+
+.link.alignLeft {
+    position: absolute;
+}
+
+.smallLink.alingLeft {
+    font-size: 24px;
+}
+
+.headerText.menuOpen {
+    opacity: 0;
+}
+
+.background.menuOpen {
+    background-image: none;
+}
+
+.navi {
+    background-color: transparent;
+}
