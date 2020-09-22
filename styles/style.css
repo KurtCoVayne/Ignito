@@ -171,11 +171,40 @@ footer {
     font-weight: var(--font-tertiary-weight-medium);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .headerText2 {
         color: #fff;
-        margin-bottom: 140%;
-        font-size: 30px;
+        margin-bottom: 100%;
+        font-size: 16px;
+        font-family: var(--font-primary);
+        font-weight: var(--font-tertiary-weight-medium);
+    }
+}
+
+.footerCardText {
+    margin-top: 10%;
+    color: #fff;
+    margin-left: 5%;
+    font-family: var(--font-primary);
+    font-weight: var(--font-tertiary-weight-medium);
+}
+
+@media (max-width: 992px) {
+    .footerCardText {
+        margin-top: 10%;
+        color: #fff;
+        margin-left: 5%;
+        font-size: 16px;
+        font-family: var(--font-primary);
+        font-weight: var(--font-tertiary-weight-medium);
+    }
+}
+
+@media (max-width: 550px) {
+    .footerCardText {
+        color: #fff;
+        margin-bottom: 90%;
+        font-size: 16px;
         font-family: var(--font-primary);
         font-weight: var(--font-tertiary-weight-medium);
     }
@@ -336,6 +365,105 @@ footer {
     }
 }
 
+.footerCard {
+    background-image: url("/img/faker.png");
+    background-color: #a7ceef;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+@media (max-width: 767px) {
+    .footerCard {
+        background-image: url("/img/faker.png");
+        background-color: #a7ceef;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+        background-size: contain;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .footerCard {
+        background-image: url("/img/faker.png");
+        background-color: #a7ceef;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-size: contain;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.footerCard2 {
+    background-image: url("/img/faker.png");
+    background-color: #acb5ac;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+@media (max-width: 767px) {
+    .footerCard2 {
+        background-image: url("/img/faker.png");
+        background-color: #acb5ac;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+        background-size: contain;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .footerCard2 {
+        background-image: url("/img/faker.png");
+        background-color: #acb5ac;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-size: contain;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.footerCard3 {
+    background-image: url("/img/faker.png");
+    background-color: #c9a3a4;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+@media (max-width: 767px) {
+    .footerCard3 {
+        background-image: url("/img/faker.png");
+        background-color: #c9a3a4;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+        background-size: contain;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .footerCard3 {
+        background-image: url("/img/faker.png");
+        background-color: #c9a3a4;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-size: contain;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .hugeCard {
     background-image: url("/img/test3.jpg");
     background-color: #f2f7f7;
@@ -348,6 +476,25 @@ footer {
 .paragraph {
     color: #000;
     width: auto;
+}
+
+.paragraph2 {
+    color: #000;
+    width: auto;
+}
+
+@media (max-width: 959px) {
+    .paragraph {
+        color: #000;
+        width: auto;
+    }
+}
+
+@media (max-width: 959px) {
+    .paragraph2 {
+        color: #000;
+        width: auto;
+    }
 }
 
 .membersImage {
@@ -412,10 +559,6 @@ footer {
     position: relative;
 }
 
-.link.alignLeft {
-    position: absolute;
-}
-
 .smallLink.alingLeft {
     font-size: 24px;
 }
@@ -430,4 +573,28 @@ footer {
 
 .navi {
     background-color: transparent;
+}
+
+.straightLine {
+    width: 2px;
+    height: 100%;
+    opacity: 1;
+}
+
+.straightLine.small {
+    opacity: 0;
+    width: 0px;
+    height: 0%;
+}
+
+.disposableImage {
+    max-width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+.disposableImage.disposed {
+    max-width: 0%;
+    height: 0px;
+    opacity: 0;
 }
