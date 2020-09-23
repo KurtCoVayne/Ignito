@@ -26,10 +26,18 @@ jQuery(document).ready(function($) {
         var ww = document.body.clientWidth;
         if (ww < 960) {
             $('.paragraph2').removeClass('text-right');
-            $('.paragraph2').removeClass('text-center');
+            $('.paragraph2').addClass('text-center');
+            $('.paragraph').addClass('text-center');
+            $('.alignLine2').addClass('centerLine');
+            $('.alignLine').addClass('centerLine');
+            $('.alignLine').removeClass('right');
         } else if (ww >= 960) {
             $('.paragraph2').addClass('text-right');
-            $('.paragraph2').addClass('text-center');
+            $('.paragraph').removeClass('text-center');
+            $('.paragraph2').removeClass('text-center');
+            $('.alignLine2').removeClass('centerLine');
+            $('.alignLine').removeClass('centerLine');
+            $('.alignLine').addClass('right');
         };
     };
     $(window).resize(function() {
