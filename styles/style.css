@@ -156,7 +156,9 @@ footer {
 @media (max-width: 767px) {
     .headerText {
         color: #0b2436;
+        margin-top: 40%;
         margin-bottom: 100%;
+        z-index: 0;
         font-size: 16px;
         font-family: var(--font-primary);
         font-weight: var(--font-tertiary-weight-medium);
@@ -174,7 +176,9 @@ footer {
 @media (max-width: 767px) {
     .headerText2 {
         color: #fff;
+        margin-top: 40%;
         margin-bottom: 100%;
+        z-index: 0;
         font-size: 16px;
         font-family: var(--font-primary);
         font-weight: var(--font-tertiary-weight-medium);
@@ -240,15 +244,14 @@ footer {
 
 .smallLink {
     text-decoration: none;
-    color: #858585;
     text-transform: uppercase;
+    transition: 0.8s;
 }
 
 @media (max-width: 767px) {
     .smallLink {
         text-decoration: none;
-        color: #858585;
-        margin-left: 50%;
+        margin-left: 0%;
         margin-right: 4%;
         text-transform: uppercase;
         font-size: 12px;
@@ -258,13 +261,22 @@ footer {
 .smallLink2 {
     text-decoration: none;
     color: #fff;
-    margin-left: 50%;
-    margin-right: 4%;
     text-transform: uppercase;
+    transition: 0.8s;
+}
+
+@media (max-width: 767px) {
+    .smallLink2 {
+        text-decoration: none;
+        margin-left: 0%;
+        margin-right: 4%;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
 }
 
 .background {
-    background-image: url("/img/faker.png");
+    background-image: url("/img/droneMain.png");
     background-color: #f2f7f7;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -275,8 +287,8 @@ footer {
 
 @media (max-width: 767px) {
     .background {
-        background-image: url("/img/faker-lg.png");
-        background-color: #b4bdcb;
+        background-image: url("/img/droneMain-lg.png");
+        background-color: #f2f7f7;
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: contain;
@@ -286,7 +298,7 @@ footer {
 }
 
 .background2 {
-    background-image: url("/img/faker.png");
+    background-image: url("/img/app.png");
     background-color: #c09769;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -295,7 +307,7 @@ footer {
 
 @media (max-width: 767px) {
     .background2 {
-        background-image: url("/img/faker-lg.png");
+        background-image: url("/img/app-lg.png");
         background-color: #c09769;
         background-repeat: no-repeat;
         background-position: bottom;
@@ -306,7 +318,7 @@ footer {
 }
 
 .background3 {
-    background-image: url("/img/faker.png");
+    background-image: url("/img/drone.png");
     background-color: #a7ceef;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -315,18 +327,18 @@ footer {
 
 @media (max-width: 767px) {
     .background3 {
-        background-image: url("/img/faker-lg.png");
+        background-image: url("/img/drone-lg.png");
         background-color: #a7ceef;
         background-repeat: no-repeat;
         background-position: bottom;
-        background-size: cover;
+        background-size: contain;
         max-width: 100%;
         height: auto;
     }
 }
 
 .background4 {
-    background-image: url("/img/faker.png");
+    background-image: url("/img/project.png");
     background-color: #acb5ac;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -335,7 +347,7 @@ footer {
 
 @media (max-width: 767px) {
     .background4 {
-        background-image: url("/img/faker-lg.png");
+        background-image: url("/img/project-lg.png");
         background-color: #acb5ac;
         background-repeat: no-repeat;
         background-position: bottom;
@@ -346,7 +358,7 @@ footer {
 }
 
 .background5 {
-    background-image: url("/img/faker.png");
+    background-image: url("/img/members.png");
     background-color: #c9a3a4;
     background-repeat: no-repeat;
     background-position: center;
@@ -355,18 +367,18 @@ footer {
 
 @media (max-width: 767px) {
     .background5 {
-        background-image: url("/img/faker-lg.png");
+        background-image: url("/img/members-lg.png");
         background-color: #c9a3a4;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         max-width: 100%;
         height: auto;
     }
 }
 
 .footerCard {
-    background-image: url("/img/faker.png");
+    background-image: url("/img/drone.png");
     background-color: #a7ceef;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -375,7 +387,7 @@ footer {
 
 @media (max-width: 767px) {
     .footerCard {
-        background-image: url("/img/faker.png");
+        background-image: url("/img/drone.png");
         background-color: #a7ceef;
         background-repeat: no-repeat;
         background-position-x: right;
@@ -388,7 +400,7 @@ footer {
 
 @media (max-width: 550px) {
     .footerCard {
-        background-image: url("/img/faker.png");
+        background-image: url("/img/drone.png");
         background-color: #a7ceef;
         background-repeat: no-repeat;
         background-position-y: bottom;
@@ -399,7 +411,7 @@ footer {
 }
 
 .footerCard2 {
-    background-image: url("/img/faker.png");
+    background-image: url("/img/project.png");
     background-color: #acb5ac;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -408,7 +420,7 @@ footer {
 
 @media (max-width: 767px) {
     .footerCard2 {
-        background-image: url("/img/faker.png");
+        background-image: url("/img/project.png");
         background-color: #acb5ac;
         background-repeat: no-repeat;
         background-position-x: right;
@@ -421,7 +433,7 @@ footer {
 
 @media (max-width: 550px) {
     .footerCard2 {
-        background-image: url("/img/faker.png");
+        background-image: url("/img/project.png");
         background-color: #acb5ac;
         background-repeat: no-repeat;
         background-position-y: bottom;
@@ -432,7 +444,7 @@ footer {
 }
 
 .footerCard3 {
-    background-image: url("/img/faker.png");
+    background-image: url("/img/members.png");
     background-color: #c9a3a4;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -441,7 +453,7 @@ footer {
 
 @media (max-width: 767px) {
     .footerCard3 {
-        background-image: url("/img/faker.png");
+        background-image: url("/img/members.png");
         background-color: #c9a3a4;
         background-repeat: no-repeat;
         background-position-x: right;
@@ -454,7 +466,7 @@ footer {
 
 @media (max-width: 550px) {
     .footerCard3 {
-        background-image: url("/img/faker.png");
+        background-image: url("/img/members.png");
         background-color: #c9a3a4;
         background-repeat: no-repeat;
         background-position-y: bottom;
@@ -552,12 +564,14 @@ footer {
 .card {
     border-radius: 0;
     border-width: 0;
+    transition: 0.8s;
 }
 
 .card:hover {
     opacity: 0.8;
     border-radius: 0;
     border-width: 0;
+    transition: 0.8s;
 }
 
 .parHeader {
@@ -660,20 +674,8 @@ footer {
     position: relative;
 }
 
-.link {
-    position: relative;
-}
-
 .smallLink.alingLeft {
     font-size: 24px;
-}
-
-.headerText.menuOpen {
-    opacity: 0;
-}
-
-.background.menuOpen {
-    background-image: none;
 }
 
 .navi {
@@ -720,4 +722,84 @@ footer {
         max-width: 50%;
         height: auto;
     }
+}
+
+.animatedLink1 {
+    align-self: center;
+    width: 0%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.nav-item:hover .animatedLink1 {
+    opacity: 1;
+    transition: 0.5s;
+    width: 1%;
+}
+
+.animatedLink2 {
+    align-self: center;
+    width: 0%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.nav-item:hover .animatedLink2 {
+    opacity: 1;
+    transition: 0.5s;
+    width: 1%;
+}
+
+.animatedLink3 {
+    align-self: center;
+    width: 0%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.nav-item:hover .animatedLink3 {
+    opacity: 1;
+    transition: 0.5s;
+    width: 1%;
+}
+
+.animatedLink4 {
+    align-self: center;
+    width: 0%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.nav-item:hover .animatedLink4 {
+    opacity: 1;
+    transition: 0.5s;
+    width: 1%;
+}
+
+.animatedLink1.current {
+    align-self: center;
+    width: 1%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.animatedLink2.current {
+    align-self: center;
+    width: 1%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.animatedLink3.current {
+    align-self: center;
+    width: 1%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.animatedLink4.current {
+    align-self: center;
+    width: 1%;
+    opacity: 1;
+    transition: 0.5s;
 }
