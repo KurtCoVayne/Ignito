@@ -24,17 +24,6 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
     var alterClass = function() {
         var ww = document.body.clientWidth;
-        if (ww < 960) {} else if (ww >= 960) {};
-    };
-    $(window).resize(function() {
-        alterClass();
-    });
-    alterClass();
-});
-
-jQuery(document).ready(function($) {
-    var alterClass = function() {
-        var ww = document.body.clientWidth;
         if (ww < 755) {
             $('.straightLine').addClass("small");
             $('.disposableImage').addClass("disposed");
@@ -48,21 +37,3 @@ jQuery(document).ready(function($) {
     });
     alterClass();
 });
-
-
-
-// jQuery(document).ready(function($) {
-//     var alterClass = function() {
-//         if ($('.navi').alterClass('collapsed')) {
-//             $('.background').removeClass('menuOpen');
-//             $('.headerText').removeClass('menuOpen');
-//         } else {
-//             $('.background').addClass('menuOpen');
-//             $('.headerText').addClass('menuOpen');
-//         }
-//     };
-//     $(window).resize(function() {
-//         alterClass();
-//     });
-//     alterClass();
-// });
