@@ -830,3 +830,15 @@ footer {
     opacity: 1;
     transition: 0.5s;
 }
+
+.animatedImage {
+    animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.animatedDesing {
+    animation: swing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
