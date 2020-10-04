@@ -842,7 +842,7 @@ footer {
 }
 
 .colabAnimated {
-    animation: heartBeat;
+    animation: bounce;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
