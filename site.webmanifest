@@ -1,6 +1,10 @@
 {
-    "name": "",
-    "short_name": "",
+    "short_name": "Ignito",
+    "name": "Proyecto Ignito",
+    "lang": "es",
+    "description": "Es un aplicativo desarrollado para que los usuarios puedan registrar sus drones y monitorearlos en tiempo real, así como enviarlos en distintas misiones",
+    "start_url": "https://ignito.xyz",
+    "prefer_related_applications": "false",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +17,9 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "theme_color": "#ffffff",
+    "dir": "ltr",
+    "display": "standalone",
+    "orientation": "any"
 }
