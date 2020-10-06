@@ -1,39 +1,26 @@
-jQuery(document).ready(function($) {
-    var alterClass = function() {
-        var ww = document.body.clientWidth;
-        if (ww < 753) {
-            $('.link').addClass('float-left');
-            $('.link').removeClass('float-right');
-            $('.link').addClass('text-left');
-            $('.link').removeClass('text-right');
-            $('.link').addClass("alignLeft");
-        } else if (ww >= 750) {
-            $('.link').removeClass('float-left');
-            $('.link').addClass('float-right');
-            $('.link').removeClass('text-left');
-            $('.link').addClass('text-right');
-            $('.link').removeClass("alingLeft");
-        };
+function dimensionsAdjustment() {
+    var link = document.querySelector(".link");
+    if ($(window).width() < 768) {
+        link.classList.add('float-left');
+        link.classList.remove('float-right');
+        link.classList.add('text-left');
+        link.classList.remove('text-right');
+        link.classList.add("alignLeft");
+    } else if ($(window).width() >= 768) {
+        link.classList.remove('float-left');
+        link.classList.add('float-right');
+        link.classList.remove('text-left');
+        link.classList.add('text-right');
+        link.classList.remove("alingLeft");
     };
-    $(window).resize(function() {
-        alterClass();
-    });
-    alterClass();
-});
 
-jQuery(document).ready(function($) {
-    var alterClass = function() {
-        var ww = document.body.clientWidth;
-        if (ww < 755) {
-            $('.straightLine').addClass("small");
-            $('.disposableImage').addClass("disposed");
-        } else if (ww >= 755) {
-            $('.straightLine').removeClass("small");
-            $('.disposableImage').removeClass("disposed");
-        };
+    var straightLine = document.querySelector(".straightLine");
+    var disposableImage = document.querySelector(".disposableImage");
+    if ($(window).width() < 768) {
+        straightLine.classList.add("small");
+        disposableImage.classList.add("disposed");
+    } else if ($(window).width() >= 768) {
+        straightLine.classList.remove("small");
+        disposableImage.classList.remove("disposed");
     };
-    $(window).resize(function() {
-        alterClass();
-    });
-    alterClass();
-});
+}
